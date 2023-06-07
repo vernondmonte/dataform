@@ -8,7 +8,7 @@ WITH aggregate_goals_by_day AS (
  FROM
    `dataform-382505.stg_analysis.northStar_20230301`
  WHERE
-   name like '%vernon%'
+   name like '%vernonm%'
 )
 SELECT
  *
